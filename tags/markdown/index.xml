@@ -5,10 +5,19 @@
     <link>https://xiaodan1040.github.io/tags/markdown/</link>
     <description>Recent content in markdown on 老阿姨的技术栈</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://xiaodan1040.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gc</title>
+      <link>https://xiaodan1040.github.io/gc/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaodan1040.github.io/gc/</guid>
+      <description>这是一个测试博客文档 agjargjerjtpoqrqjg gajaergj</description>
+    </item>
     
     <item>
       <title>python基础面试题01</title>

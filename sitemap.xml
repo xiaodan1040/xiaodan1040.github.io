@@ -4,7 +4,56 @@
   
   <url>
     <loc>https://xiaodan1040.github.io/categories/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaodan1040.github.io/gc/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaodan1040.github.io/tags/markdown/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaodan1040.github.io/posts/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaodan1040.github.io/series/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaodan1040.github.io/tags/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaodan1040.github.io/categories/themes/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiaodan1040.github.io/series/%E6%96%87%E7%AB%A0%E8%AF%B4%E6%98%8E%E7%AB%AF%E7%9F%AD%E8%AF%AD/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -18,13 +67,6 @@
   
   <url>
     <loc>https://xiaodan1040.github.io/tags/map/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/posts/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -53,20 +95,6 @@
   
   <url>
     <loc>https://xiaodan1040.github.io/tags/reduce/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/series/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -129,13 +157,6 @@
   </url>
   
   <url>
-    <loc>https://xiaodan1040.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaodan1040.github.io/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -151,13 +172,6 @@
   
   <url>
     <loc>https://xiaodan1040.github.io/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/categories/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
