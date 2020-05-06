@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on 老阿姨的技术栈</title>
-    <link>https://xiaodan1040.github.io/series/</link>
-    <description>Recent content in Series on 老阿姨的技术栈</description>
+    <title>并发量 on 老阿姨的技术栈</title>
+    <link>https://xiaodan1040.github.io/tags/%E5%B9%B6%E5%8F%91%E9%87%8F/</link>
+    <description>Recent content in 并发量 on 老阿姨的技术栈</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="https://xiaodan1040.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://xiaodan1040.github.io/tags/%E5%B9%B6%E5%8F%91%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

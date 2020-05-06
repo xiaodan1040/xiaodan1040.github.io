@@ -2,7 +2,7 @@
 <html lang="zh">
   <head>
     <title>
-        Rich Content - 老阿姨的技术栈
+        面试题：如何提高项目并发量 - 老阿姨的技术栈
       </title>
         <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,32 +20,33 @@
     <meta http-equiv="window-target" content="_top" />
     
     
-    <meta name="description" content="A brief description of Hugo Shortcodes" />
+    <meta name="description" content="对于web，app，微信小程序等项目，从前端、nginx、部署方式、后端展开谈谈如何提高并发量" />
     <meta name="generator" content="Hugo 0.69.2 with theme pure" />
-    <title>Rich Content - 老阿姨的技术栈</title>
+    <title>面试题：如何提高项目并发量 - 老阿姨的技术栈</title>
     
     
     <link rel="stylesheet" href="https://xiaodan1040.github.io/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-    <meta property="og:title" content="Rich Content" />
-<meta property="og:description" content="A brief description of Hugo Shortcodes" />
+    <meta property="og:title" content="面试题：如何提高项目并发量" />
+<meta property="og:description" content="对于web，app，微信小程序等项目，从前端、nginx、部署方式、后端展开谈谈如何提高并发量" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://xiaodan1040.github.io/rich-content/" />
-<meta property="article:published_time" content="2019-03-10T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-03-10T00:00:00+00:00" />
-<meta itemprop="name" content="Rich Content">
-<meta itemprop="description" content="A brief description of Hugo Shortcodes">
-<meta itemprop="datePublished" content="2019-03-10T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-03-10T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="0">
+<meta property="og:url" content="https://xiaodan1040.github.io/increase_concurrency/" />
+<meta property="article:published_time" content="2020-05-06T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-05-06T00:00:00+00:00" />
+
+<meta itemprop="name" content="面试题：如何提高项目并发量">
+<meta itemprop="description" content="对于web，app，微信小程序等项目，从前端、nginx、部署方式、后端展开谈谈如何提高并发量">
+<meta itemprop="datePublished" content="2020-05-06T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-06T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2226">
 
 
 
-<meta itemprop="keywords" content="shortcodes,privacy," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Rich Content"/>
-<meta name="twitter:description" content="A brief description of Hugo Shortcodes"/>
+<meta itemprop="keywords" content="并发量," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="面试题：如何提高项目并发量"/>
+<meta name="twitter:description" content="对于web，app，微信小程序等项目，从前端、nginx、部署方式、后端展开谈谈如何提高并发量"/>
 
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -157,10 +158,8 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="https://xiaodan1040.github.io/categories/python/" class="category-list-link">python</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://xiaodan1040.github.io/categories/syntax/" class="category-list-link">syntax</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://xiaodan1040.github.io/categories/themes/" class="category-list-link">themes</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://xiaodan1040.github.io/categories/%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0/" class="category-list-link">内置函数</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://xiaodan1040.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/" class="category-list-link">面试题</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://xiaodan1040.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/" class="category-list-link">面试题</a><span class="category-list-count">2</span></li>
         </ul>
     </div>
 </div>
@@ -170,63 +169,15 @@
         <ul class="tag-list">
             
             
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/css/" class="tag-list-link">css</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/emoji/" class="tag-list-link">emoji</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/filter/" class="tag-list-link">filter</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/html/" class="tag-list-link">html</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/index/" class="tag-list-link">index</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/map/" class="tag-list-link">map</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/markdown/" class="tag-list-link">markdown</a><span
-                    class="tag-list-count">3</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/privacy/" class="tag-list-link">privacy</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/reduce/" class="tag-list-link">reduce</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/shortcodes/" class="tag-list-link">shortcodes</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/text/" class="tag-list-link">text</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/themes/" class="tag-list-link">themes</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/zip/" class="tag-list-link">zip</a><span
-                    class="tag-list-count">1</span></li>
-            
-            
             <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/%E5%85%83%E7%B1%BB/" class="tag-list-link">元类</a><span
                     class="tag-list-count">1</span></li>
             
             
             <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/%E5%8D%95%E4%BE%8B/" class="tag-list-link">单例</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://xiaodan1040.github.io/tags/%E5%B9%B6%E5%8F%91%E9%87%8F/" class="tag-list-link">并发量</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -245,10 +196,10 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://xiaodan1040.github.io/gc/" class="title">Gc</a>
+                        <a href="https://xiaodan1040.github.io/increase_concurrency/" class="title">面试题：如何提高项目并发量</a>
                     </p>
                     <p class="item-date">
-                        <time datetime="2020-05-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-05-05</time>
+                        <time datetime="2020-05-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-05-06</time>
                     </p>
                 </div>
             </li>
@@ -259,36 +210,6 @@
                     </p>
                     <p class="item-date">
                         <time datetime="2019-05-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-05-05</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://xiaodan1040.github.io/markdown-syntax/" class="title">Markdown Syntax Guide</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-03-11 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-11</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://xiaodan1040.github.io/rich-content/" class="title">Rich Content</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-03-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-10</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://xiaodan1040.github.io/placeholder-text/" class="title">Placeholder Text</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2019-03-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-09</time>
                     </p>
                 </div>
             </li>
@@ -316,8 +237,8 @@
       <h1 itemprop="name">
   <a
     class="article-title"
-    href="/rich-content/"
-    >Rich Content</a
+    href="/increase_concurrency/"
+    >面试题：如何提高项目并发量</a
   >
 </h1>
 
@@ -325,38 +246,123 @@
         
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://xiaodan1040.github.io/rich-content/" class="article-date">
-  <time datetime="2019-03-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">2019-03-10</time>
+<a href="https://xiaodan1040.github.io/increase_concurrency/" class="article-date">
+  <time datetime="2020-05-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-05-06</time>
 </a>
 </span>
-  
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"> 面试题 </a>
+</span>  
   <span class="article-tag">
     <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/shortcodes/"> shortcodes </a>
-    <a class="article-tag-link" href="/tags/privacy/"> privacy </a>
+    <a class="article-tag-link" href="/tags/%E5%B9%B6%E5%8F%91%E9%87%8F/"> 并发量 </a>
   </span>
 
-	<span class="article-read hidden-xs">
-    	<i class="icon icon-eye-fill" aria-hidden="true"></i>
-    	<span id="https://xiaodan1040.github.io/rich-content/" class="leancloud_visitors"  data-flag-title="Rich Content">
-			<span class="leancloud-visitors-count">0</span>
-		</span>
-    </span>
-        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/rich-content/#comments"
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/increase_concurrency/#comments"
             class="article-comment-link">评论</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 0字</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 0分 </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 2226字</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 5分 </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
-      
+      <h3 id="前端方面">前端方面：</h3>
+<p>1）将静态文件（js、css、静态图片等）存放在CDN中或设置专门服务器</p>
+<p>2）使用精灵图（就是所有的图片放在一张大图上，使用定位，定位到需要的图片上）</p>
+<p>3）前端缓存（响应头设置缓存时间）cache-control</p>
+<h3 id="nginx-方面">nginx 方面：</h3>
+<p>1）nginx 做集群（DNS解析，负载均衡硬件）</p>
+<p>2）动静分离（静态资源直接通过nginx转发，uwsgi只负责处理动态请求）</p>
+<p>3）负载均衡（nginx配置）</p>
+<p>4）集群化部署</p>
+<p>5）使用微服务架构（拆服务，将项目做成分布式）</p>
+<h3 id="部署方式">部署方式：</h3>
+<p>1）uwsgi（c写的wsgi服务器）部署</p>
+<p>2）gunicorn（python写的wsgi服务器）部署</p>
+<h3 id="后端代码">后端代码：</h3>
+<p>1）缓存(redis)</p>
+<p>场景说明：接收一个请求，要查5个表，耗时3s &ndash;&gt; json 格式 &ndash;&gt; 放到缓存中 &ndash;&gt; 下次再发送请求，直接去缓存查 &ndash;&gt; 耗时大大减少，可能0.001秒返回了</p>
+<p>弊端：可能会出现缓存击穿、缓存穿透、缓存雪崩以及双写一致性问题等</p>
+<p>2）页面静态化(只适用于web项目)，将访问频繁的页面（比如首页）提前生成</p>
+<p>场景说明：发送请求 /index &ndash;&gt; 查询数据库（用了缓存）&ndash;&gt; dtl渲染页面  &ndash;&gt; 提前生成出index.html  &ndash;&gt; django模板渲染</p>
+<p>django实现页面静态化的过程</p>
+<pre><code class="language-python">def current_time(req):
+    # ================================原始的视图函数
+    # import datetime
+    # now=datetime.datetime.now()
+    # html=&quot;&lt;html&gt;&lt;body&gt;现在时刻：&lt;h1&gt;%s.&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;&quot; %now
+
+
+    # ================================django模板修改的视图函数
+    # from django.template import Template,Context
+    # now=datetime.datetime.now()
+    # t=Template('&lt;html&gt;&lt;body&gt;现在时刻是:&lt;h1&gt;{{current_date}}&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;')
+    # #t=get_template('current_datetime.html')
+    # c=Context({'current_date':str(now)})
+    # html=t.render(c)
+    #
+    # return HttpResponse(html)
+
+
+    #另一种写法(推荐)
+    import datetime
+    now=datetime.datetime.now()
+    return render(req, 'current_datetime.html', {'current_date':str(now)[:19]})
+</code></pre>
+<p>弊端：可能会出现数据不一致的情况</p>
+<p>3）异步操作（celery），将耗时长的请求（比如需要3s），设计成异步</p>
+<p>场景说明：接收到请求  &ndash;&gt; 直接返回消息(任务已提交，请求正在处理)</p>
+<p>案例：</p>
+<p>① 小米秒杀：您正在排队（前端设置了定时，每隔5s，发送一个请求，查是否秒杀成功）</p>
+<p>② 保存视频，发送邮件</p>
+<p>③ 后台管理中统计最近某几个月的订单量  &ndash;&gt; 折线图、饼状图展示</p>
+<p>④ 消息队列：rabbitmq、kafka，用于异步，解耦</p>
+<p>4）请求达到数据库（只要达到数据库，性能就下来了）</p>
+<p>① 优化sql，尽量不建立外键，适当建索引</p>
+<p>② 读写分离，数据库集群，分库分表</p>
+<p>5）优化代码，多线程处理，尽量不在for循环里查数据库</p>
+<p>6）换框架(异步框架，例如sanic，fastapi)，换语言(例如go)</p>
+<p>最本质就一句话，代码优化不了了，垒机器</p>
+<h2 id="弊端的解决方案">弊端的解决方案</h2>
+<h3 id="问题1使用缓存出现缓存击穿缓存穿透缓存雪崩以及双写一致性问题如何解决">问题1：使用缓存，出现缓存击穿、缓存穿透、缓存雪崩以及双写一致性问题如何解决</h3>
+<p>摘自：</p>
+<p><a href="https://baijiahao.baidu.com/s?id=1619572269435584821&amp;wfr=spider&amp;for=pc">https://baijiahao.baidu.com/s?id=1619572269435584821&amp;wfr=spider&amp;for=pc</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/91539644">https://zhuanlan.zhihu.com/p/91539644</a></p>
+<p><strong>缓存击穿</strong></p>
+<p>缓存击穿，是指某个热点数据(key)失效时，大量针对这个数据的请求直接访问数据库</p>
+<p>解决方案</p>
+<p>1 使用随机退避方式，失效时随机sleep一个很短的时间，再次查询，如果失败再执行更新。对电商项目，则可考虑将这些热点数据设置为“爆款产品”，让其永不过期</p>
+<p>2 使用互斥锁更新，保证同一个进程中针对同一数据不会并发访问到数据库，减少数据库压力</p>
+<p><strong>缓存穿透</strong></p>
+<p>缓存穿透，是指查询一个数据库一定不存在的数据。通常产生这个问题的原因可能是外部的恶意攻击，例如，对用户信息进行了缓存，但恶意攻击者使用不存在的用户ID频繁请求接口，使缓存不命中，然后访问数据库依然不命中，导致大量请求穿透缓存访问数据库</p>
+<p>解决方案</p>
+<p>1 采用缓存空值的方式，如果从数据库查询的对象为空，也放入缓存，为其设置一个非常短的缓存过期时间，比如60s。不过这个方法可能导致缓存中存储大量无用数据</p>
+<p>2 使用布隆过滤器(BloomFilter)，布隆过滤器的特点是存在性检测，如果布隆过滤器中不存在，数据一定不存在；如果布隆过滤器中存在，实际数据也可能不存在</p>
+<p><strong>缓存雪崩</strong></p>
+<p>缓存雪崩，是指在某一个时间段，缓存数据集中过期失效，在此期间所有的请求都会穿透访问数据库</p>
+<p>解决方案</p>
+<p>1 针对多个热点数据(key)同时失效的问题，可将这些key 进行分类，根据分类设置不同的时间周期，再对每个分类中的时间周期上增加一个小的随机数，避免大量热点key同一时刻失效</p>
+<p>2 缓存失效后，通过加锁或者队列来控制读数据库写缓存的线程数量。 比如对某个key只允许一个线程查询数据和写缓存，其他线程等待(参考zookeeper)</p>
+<p>3 使用主从模式和集群模式来尽量保证缓存服务的高可用</p>
+<p>4 使用快速失败的熔断策略，减少数据库瞬间压力(参考Java)</p>
+<p><strong>双写一致性</strong></p>
+<p>只要使用缓存，就可能涉及到缓存与数据库双存储双写，只要双写，就一定会存在数据不一致问题</p>
+<p>解决方案</p>
+<p>1 服务对耗时不是特别敏感可以增加重试，耗时敏感可通过异步补偿任务来处理失败的更新。短期数据不一致不影响业务，下次更新成功，只要最终一致性即可</p>
+<p>2 短期数据不一致不影响业务，可采用，只要最终一致性即可</p>
+<p>3 延时双写或延时双删策略</p>
+<p>4 强一致性的，可使用悲观锁或读写请求串行化，串到一个内存队列中</p>
+<h3 id="问题2页面静态化的过程中出现数据不一致的问题如何解决">问题2：页面静态化的过程中，出现数据不一致的问题如何解决</h3>
+<p>1 异步检测，当有数据增加时，再重新生成一次这个页面</p>
+<p>2 使用celery或django的信号(异步操作)，当对象保存时，重新生成静态页面</p>
+
     </div>
     <div class="article-footer">
 <blockquote class="mt-2x">
   <ul class="post-copyright list-unstyled">
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接: </strong>
-      <a href="https://xiaodan1040.github.io/rich-content/" title="Rich Content" target="_blank" rel="external">https://xiaodan1040.github.io/rich-content/</a>
+      <a href="https://xiaodan1040.github.io/increase_concurrency/" title="面试题：如何提高项目并发量" target="_blank" rel="external">https://xiaodan1040.github.io/increase_concurrency/</a>
     </li>
     <li class="post-copyright-license">
       <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
@@ -389,14 +395,9 @@
     <div class="bar-inner">
         <ul class="pager pull-left">
             <li class="prev">
-                <a href="https://xiaodan1040.github.io/placeholder-text/" title="Placeholder Text"><i
+                <a href="https://xiaodan1040.github.io/python-interview01/" title="python基础面试题01"><i
                         class="icon icon-angle-left"
                         aria-hidden="true"></i><span>&nbsp;&nbsp;下一篇</span></a>
-            </li>
-            <li class="next">
-                <a href="https://xiaodan1040.github.io/markdown-syntax/"
-                    title="Markdown Syntax Guide"><span>上一篇&nbsp;&nbsp;</span><i
-                        class="icon icon-angle-right" aria-hidden="true"></i></a>
             </li>
             
             <li class="toggle-toc">
@@ -509,7 +510,7 @@
         avatar: 'mm',
         meta: meta,
         pageSize: '10' || 10,
-        visitor: true 
+        visitor: false 
 });
 </script>
 

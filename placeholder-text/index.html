@@ -336,6 +336,12 @@
     <a class="article-tag-link" href="/tags/text/"> text </a>
   </span>
 
+	<span class="article-read hidden-xs">
+    	<i class="icon icon-eye-fill" aria-hidden="true"></i>
+    	<span id="https://xiaodan1040.github.io/placeholder-text/" class="leancloud_visitors"  data-flag-title="Placeholder Text">
+			<span class="leancloud-visitors-count">0</span>
+		</span>
+    </span>
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/placeholder-text/#comments"
             class="article-comment-link">评论</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 269字</span>
@@ -411,6 +417,7 @@ Propoetides <strong>parte</strong>.</p>
     </div>
   </article>
 <section id="comments">
+    <div id="vcomments"></div>
 </section>
 
 </div><nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -519,6 +526,27 @@ Propoetides <strong>parte</strong>.</p>
     });
 </script>
 
+<script src="https://cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine"></script>
+<script type="text/javascript">
+    var GUEST = ['nick', 'mail', 'link'];
+    var meta = 'nick,mail';
+    meta = meta.split(',').filter(function (item) {
+        return GUEST.indexOf(item) > -1;
+    });
+    new Valine({
+        el: '#vcomments',
+        verify: false ,
+        notify: false ,
+        appId: '3V9CYe0Y9uu1vMhNzFisIk5J-gzGzoHsz',
+        appKey: 'R7nv2AXUP5buX6nRyKXWSdoH',
+        placeholder: '说点什么吧……',
+        avatar: 'mm',
+        meta: meta,
+        pageSize: '10' || 10,
+        visitor: true 
+});
+</script>
 
   </body>
 </html>

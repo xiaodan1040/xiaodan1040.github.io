@@ -4,70 +4,56 @@
   
   <url>
     <loc>https://xiaodan1040.github.io/categories/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://xiaodan1040.github.io/gc/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/markdown/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <loc>https://xiaodan1040.github.io/series/concurrency/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://xiaodan1040.github.io/posts/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://xiaodan1040.github.io/series/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://xiaodan1040.github.io/tags/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://xiaodan1040.github.io/categories/themes/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <loc>https://xiaodan1040.github.io/tags/%E5%B9%B6%E5%8F%91%E9%87%8F/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://xiaodan1040.github.io/series/%E6%96%87%E7%AB%A0%E8%AF%B4%E6%98%8E%E7%AB%AF%E7%9F%AD%E8%AF%AD/</loc>
-    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+    <loc>https://xiaodan1040.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://xiaodan1040.github.io/tags/filter/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/map/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <loc>https://xiaodan1040.github.io/increase_concurrency/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -88,20 +74,6 @@
   
   <url>
     <loc>https://xiaodan1040.github.io/series/python%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/reduce/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/zip/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -136,104 +108,6 @@
   </url>
   
   <url>
-    <loc>https://xiaodan1040.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://xiaodan1040.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -243,12 +117,6 @@
   <url>
     <loc>https://xiaodan1040.github.io/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiaodan1040.github.io/tags/index/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
